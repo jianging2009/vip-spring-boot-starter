@@ -9,7 +9,7 @@
 
   <groupId>com.holyw</groupId>
   <artifactId>vip-spring-boot-starter</artifactId>
-  <version>1.0.3</version>
+  <version>1.0.1</version>
 
   <name>vip-spring-boot-starter</name>
   <!-- FIXME change it to the project's website -->
@@ -46,6 +46,18 @@
       <version>1.9.70</version>
       <classifier>all</classifier><!--如果无法导入这个包，可以手动导入使用resources/jar/pop-sdk-1.9.70-all.jar-->
     </dependency>
+
+    <dependency>
+      <groupId>com.vip</groupId>
+      <artifactId>ops-sdk</artifactId>
+      <version>20190918</version>
+    </dependency>
+    <dependency>
+      <groupId>com.vip</groupId>
+      <artifactId>vop-sdk</artifactId>
+      <version>20201120</version>
+    </dependency>
+
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
